@@ -1,0 +1,119 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #393939;
+    font-weight: regular;
+}
+
+img {
+    width: 100px;
+}
+
+.header{
+    background-image: url("images/chengdu.jpg");
+    height: 760px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.activities{
+    padding: 56px 80px;
+    height: 360px;
+    background-color: #FFE8BE;
+}
+
+.card{
+    margin:24px; 
+}
+
+.three-activities{
+    display: flex;
+    
+}
+
+.img{
+    border-radius: 50%;
+}
+
+
+.avatar{
+    width: 220px;
+    border-radius: 50%;
+}
+
+.guide-card{
+    width: 600px;
+    margin: 56px auto;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    background: #FFF8F0;
+}
+
+.guide-intro{
+    width:280px;
+    text-align: left;
+}
+a{
+   
+    font-size: 16px;
+    font-weight: bold;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #7372FF;
+}
+
+a:active {
+  text-decoration: underline;
+}
